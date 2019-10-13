@@ -1,3 +1,14 @@
+### This project has been adjusted for my personal use case.
+
+And has some hard-coded adjustments. Specifically:
+* Changing wireguard's port
+* Removing custom DNS
+* Allowing routing of only wireguard IP range
+
+I need wireguard to allow communicating between my linux devices, not as a gateway, hence some of these adjustments.
+
+Original README below:
+
 # wireguard_ansible
 
 This is the ansible automation of the Wireguard VPN set up described here https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
